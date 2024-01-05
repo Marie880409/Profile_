@@ -1,0 +1,25 @@
+@media all and (max-width: 768px){
+    header {
+        width: 100%;
+        height: 400px;
+        background-color: var(--color-black);
+    }
+
+    .menu_all {
+        display: none;
+    }
+    .header_title_mb {
+        display: block;
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: 'Abril Fatface', serif;
+        color: var(--color-main);
+    }
+        .header_title_pc {
+            display: none;
+        }
+    .logo_title {
+        position: relative;
+        font-size: 0.6rem;
+    }    
+}
