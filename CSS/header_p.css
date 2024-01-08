@@ -34,6 +34,9 @@ header {
         
         
     }
+    .m_menu {
+        display: none;
+    }
 .title_01 {
     position: relative;
     clear: both;
@@ -43,11 +46,16 @@ header {
     padding: 1.3rem;
 }
 
+    .title_01 > .contact_button {
+        display: none;
+    }
+
 
     .header_title_pc {
         box-sizing: border-box;
-        width: 25%;
+        width: 250px;
         height: 100px;
+        padding-left: 30px;
         margin: 0 auto;
         text-align: left;
         font-family: 'Abril Fatface', serif;
@@ -63,21 +71,24 @@ header {
 
     .sub_title {
         box-sizing: border-box;
-        width: 25%;
+        width: 200px;
         height: 50px;
         line-height: 50px;
         margin: 0 auto;
-        text-align: left;
+        text-align: center;
         font-size: 1.2rem;
         padding-top: 0.2rem;
         font-size: 1.3rem;
         color: var(--color-white);
+       
         
     }
         .zerocode {
             color: aliceblue;
             text-decoration: line-through;
         }
+
+
 
 .top_button_all {
     position: relative;
@@ -129,6 +140,7 @@ header {
          }
         
         .menu_each {
+            padding-left: 6px;
             color: white;
            
         }
