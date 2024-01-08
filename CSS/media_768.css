@@ -1,25 +1,258 @@
 @media all and (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+       
+        
+    }
+    div, h1, footer, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
     header {
+        position: relative;
         width: 100%;
         height: 400px;
+        margin: 0;
+        padding: 0;
         background-color: var(--color-black);
+        
     }
-
-    .menu_all {
-        display: none;
-    }
+        header::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 400px;
+            background-color: var(--color-black);
+            background-image: url(../Images/dragon_b2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 190px -140px;
+            opacity: 30%;
+        }
+        .menu_all {
+            display: none;
+        }
+       
     .header_title_mb {
         display: block;
-        font-size: 2.5rem;
-        text-align: center;
+        width:100%;
+        font-size: 3rem;
+        margin: 0 auto;
+        padding-left: 40px;
+        text-align: left;
+        margin-left: 2rem;
         font-family: 'Abril Fatface', serif;
         color: var(--color-main);
+        
+        
     }
         .header_title_pc {
             display: none;
         }
-    .logo_title {
+    .sub_title {
         position: relative;
-        font-size: 0.6rem;
+        text-align: center;
+        width: 300px;
+    }
+    .mainlogo {
+        position: relative;
+        font-size: 1.5rem;
     }    
+    
+    .line {
+        display: none;
+    }
+    
+    .m_menu {
+        display: block;
+        position: relative;
+        top: -190px;
+        left: 13px;
+        cursor: pointer;
+        color: var(--color-main);
+    }
+        .m_menu_list.open {
+            
+            display: block;
+            
+        }
+        .m_menu_list {
+            display: none;
+            margin-top: 1rem;
+            font-size: 1.1rem;
+           
+            
+    }
+        .list_c {
+            margin: 7px;
+        }
+            .list_c:hover {
+                cursor: pointer;
+                color: var(--color-white);
+            }
+    .sub_title {
+        font-size: 1.3rem;
+        width: 100%;
+        text-align: center;
+    }
+    .title_01 > .contact_button {
+        display: block;
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+
+/*---------메인영역----------*/
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    .dragon {
+        display: none;
+    }
+    .main_bg {
+        background-color: #0B0A0A;
+    }
+
+    .about_me {
+        position: relative;
+        clear: both;
+        margin: 0 auto;
+
+    }
+        .about_mi {
+            justify-content: right;
+            padding-right: 10px;
+        }
+    .about_text {
+        display: none;
+    }
+/*---------스킬셋 시작 ----------*/ 
+    .section_02 {
+        
+        display: flex;
+        position: relative;
+        flex-flow: row wrap;
+        top: -270px;
+        width: 510px;
+        height: auto;
+    }
+        .skill_set {
+            width: 500px;
+            height: 180px;
+            margin: 0.5rem;
+            border-radius: 20px;
+            align-items: center;
+            margin: 0 auto;
+            background-color: var(--color-main);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }   
+        .skill_set:hover {
+            width: 520px;
+            transition: all 1s;
+        }
+            .skill_set > a {
+                display: none;
+            }
+            .skill_text1, .skill_text2 {
+                position: relative;
+                width: 500px;
+                height: 200px;
+                margin-top: 2.2rem;
+                
+
+            }
+            .skill_text1 > .material-symbols-outlined,
+            .skill_text2 > .material-symbols-outlined {
+                position: relative;
+                font-size: 100pt;
+                top: 13px;
+                left: -160px;
+                color: var(--color-white);
+                
+            }
+            .skill_line {
+                position: absolute;
+                top: 10px;
+                left: 180px;
+                width: 1px;
+                height: 120px;
+                background: var(--color-white);
+            }
+            .skill_title {
+                position: relative;
+                font-size: 2.5rem;
+                text-align: left;
+                top: -70px;
+                margin-left: 200px;
+                color: var(--color-white);
+            }
+            .skill_ex {
+                position: relative;
+                width: 250px;
+                height: 50px;
+                top: -80px;
+                left: 210px;
+                text-align: left;
+                
+            }
+    /*---------스킬 시작 ----------*/
+    .section_03 {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        top: -230px;
+        left: 0px;
+
+    }     
+        .skills_bar {
+            position: relative;
+            margin-left: 40px;
+            
+        }
+        .skill_box2_1, .skill_box2_2 {
+            display: none;
+        }
+    /*---------마이워크 ----------*/
+    .section_04 {
+        display: block;
+        position: relative;
+        width: 100%;
+        height:800px;
+        background: var(--color-black);
+    }   
+    
+    img {
+        object-fit: cover;
+    }
+        .works_all {
+            position: relative;
+            display: grid;
+            grid-template-areas: 
+            "e   b"
+            "c   d"
+            ;
+            grid-template-rows: 200px 200px;
+            grid-template-columns: 200px 200px;
+            margin: 0 auto;
+            margin-top: 3rem;
+            margin-left: 10px;
+        }
+        .img_1 {display: none;}
+        .img_6 {display: none;}
+        .img_7 {display: none;}
+    /*---------footer ----------*/    
+    footer {
+        display: block;
+        width: 100%;
+        height: 400px;
+        top:0px;
+        left: 0px;
+        align-items: center;
+        background: var(--color-black);
+    }
+       
 }
