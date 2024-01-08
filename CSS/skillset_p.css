@@ -35,6 +35,7 @@
         align-items: center;
     }
     .skill_img {
+        
         position: relative;
         display: grid;
         grid-area: d;
