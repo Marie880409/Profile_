@@ -1,4 +1,5 @@
 .section_04 {
+    display: block;
     width: auto;
     height: auto;
     background: var(--color-black);
@@ -14,8 +15,8 @@
 
 
 .works_all {
-    width: 1400px;
-    height: 3500px;
+    width: 1200px;
+    height: 3200px;
     display: grid;
     padding: 1rem;
     grid-template-columns: repeat(3,1fr);
