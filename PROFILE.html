@@ -40,7 +40,7 @@
         }
 
     </style>
-
+    <script type="module" src="./CSS/m_menu.js" defer> </script>
     <link href="./css/skillset_p.css" rel="stylesheet">
     <link href="./css/header_p.css" rel="stylesheet">
     <link href="./css/main_p.css" rel="stylesheet">
@@ -57,6 +57,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     
@@ -81,7 +82,22 @@
             <p class="sub_title"> INHYE - LEE Profile 
                 <span class="zerocode"> 0000 </span>
             </p>
+            <div class="contact_button">
+                CONTACT
+            </div>
         </nav>
+        <div class="m_menu">
+            <span class="material-symbols-outlined">
+                density_medium
+                </span>
+            <ul class="m_menu_list">
+                <li class="list_c"> HOME </li>
+                <li class="list_c"> ABOUT </li>
+                <li class="list_c"> SKILLS </li>
+                <li class="list_c"> WORKS </li>
+                <li class="list_c"> CONTACT </li>
+            </ul>        
+        </div>
 
         <!-- 버튼 시작 -->
         <div class="top_button_all">
@@ -116,6 +132,7 @@
                 </li>
 
             </ul>
+            
         </div>
     </header>
     
@@ -164,9 +181,11 @@
                     <a href="#" target="_blank" class="skill_img">
                     </a>
                     <div class="skill_text1">
-                        <span class="material-symbols-outlined" style="font-size:35pt; text-align: center;">
+                        <div class="skill_line"> &nbsp;</div>
+                        <span class="material-symbols-outlined" style="font-size:50pt; text-align: center;">
                             integration_instructions
                         </span>
+                        
                         <h2 class="skill_title"> Front+end </h2>
                         <p class="skill_ex"> HTML, CSS, JavaScript, TypeScript, React </p>
                     </div>
@@ -176,7 +195,8 @@
                     
                     </a>
                     <div class="skill_text2">
-                        <span class="material-symbols-outlined" style="font-size:35pt; text-align: center;">
+                        <div class="skill_line"> &nbsp;</div>
+                        <span class="material-symbols-outlined" style="font-size:50pt; text-align: center;">
                             heart_plus
                             </span>
                         <h2  class="skill_title"> Design </h2>
@@ -189,7 +209,8 @@
                 
                     </a>
                     <div class="skill_text1">
-                        <span class="material-symbols-outlined" style="font-size:35pt; text-align: center;">
+                        <div class="skill_line"> &nbsp;</div>
+                        <span class="material-symbols-outlined" style="font-size:50pt; text-align: center;">
                             note_stack
                             </span>
                         <h2  class="skill_title"> ETC </h2>
@@ -319,5 +340,6 @@
         </main>
 
     </main>
+   
 </body>
 </html>
