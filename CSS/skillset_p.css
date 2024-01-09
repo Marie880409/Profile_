@@ -39,7 +39,7 @@
         position: relative;
         display: grid;
         grid-area: d;
-        background-image: url(../Images/f_1.jpg);
+        background-image: url(../images/f_1.jpg);
         border: 1px solid var(--color-main);
         background-repeat: no-repeat;
         background-size: cover;
@@ -51,7 +51,7 @@
         position: relative;
         display: grid;
         grid-area: f;
-        background-image: url(../Images/f_2.jpg);
+        background-image: url(../images/f_2.jpg);
         border: 1px solid var(--color-main);
         background-repeat: no-repeat;
         background-size: cover;
@@ -63,7 +63,7 @@
         position: relative;
         display: grid;
         grid-area: d;
-        background-image: url(../Images/f_3.jpg);
+        background-image: url(../images/f_3.jpg);
         border: 1px solid var(--color-main);
         background-repeat: no-repeat;
         background-size: cover;
