@@ -2,8 +2,7 @@
     *{
         margin: 0;
         padding: 0;
-       
-        
+        height: auto;
     }
     div, h1, footer, p, ul, li {
         margin: 0;
@@ -24,7 +23,7 @@
             width: 100%;
             height: 400px;
             background-color: var(--color-black);
-            background-image: url(../Images/dragon_b2.jpg);
+            background-image: url(../images/dragon_b2.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 190px -140px;
@@ -36,15 +35,12 @@
        
     .header_title_mb {
         display: block;
-        width:100%;
-        font-size: 3rem;
+        width:200px;
+        font-size: 2.4rem;
         margin: 0 auto;
-        padding-left: 40px;
         text-align: left;
-        margin-left: 2rem;
         font-family: 'Abril Fatface', serif;
         color: var(--color-main);
-        
         
     }
         .header_title_pc {
@@ -114,12 +110,19 @@
         display: none;
     }
     .main_bg {
-        background-color: #0B0A0A;
+        width: 100%;
+        height: auto;
+        background-color: #000000;
     }
-
+    .section_01 {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+    }
     .about_me {
         position: relative;
         clear: both;
+        width: 300px;
         margin: 0 auto;
 
     }
@@ -136,13 +139,13 @@
         display: flex;
         position: relative;
         flex-flow: row wrap;
-        top: -270px;
-        width: 510px;
+        top:-100px;
+        width: 100%;
         height: auto;
     }
         .skill_set {
-            width: 500px;
-            height: 180px;
+            width: 300px;
+            height: 120px;
             margin: 0.5rem;
             border-radius: 20px;
             align-items: center;
@@ -151,7 +154,7 @@
             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
         }   
         .skill_set:hover {
-            width: 520px;
+            width: 320px;
             transition: all 1s;
         }
             .skill_set > a {
@@ -159,7 +162,7 @@
             }
             .skill_text1, .skill_text2 {
                 position: relative;
-                width: 500px;
+                width: 300px;
                 height: 200px;
                 margin-top: 2.2rem;
                 
@@ -168,61 +171,75 @@
             .skill_text1 > .material-symbols-outlined,
             .skill_text2 > .material-symbols-outlined {
                 position: relative;
-                font-size: 100pt;
-                top: 13px;
-                left: -160px;
+                font-size: 80pt;
+                top: -10px;
+                left: -80px;
                 color: var(--color-white);
                 
             }
             .skill_line {
                 position: absolute;
-                top: 10px;
-                left: 180px;
+                top: -10px;
+                left: 140px;
                 width: 1px;
-                height: 120px;
+                height: 80px;
                 background: var(--color-white);
             }
             .skill_title {
                 position: relative;
-                font-size: 2.5rem;
+                font-size: 1.6rem;
                 text-align: left;
-                top: -70px;
-                margin-left: 200px;
+                top: -100px;
+                margin-left: 160px;
+                margin-top: 8px;
                 color: var(--color-white);
             }
             .skill_ex {
                 position: relative;
-                width: 250px;
-                height: 50px;
-                top: -80px;
-                left: 210px;
+                width: 100px;
+                height: 60px;
+                font-size: 0.9rem;
+                top: -120px;
+                left: 160px;
                 text-align: left;
+                margin: 1rem;
                 
             }
     /*---------스킬 시작 ----------*/
     .section_03 {
         position: relative;
         width: 100%;
-        height: 700px;
-        top: -230px;
+        height: auto;
+        top: -100px;
         left: 0px;
+        margin: 0 auto;
+        
 
-    }     
+        
+    }   
+        .skill_box_all {
+            width: 100%x;
+            height: 300px;
+            margin: 0 auto;
+        }
         .skills_bar {
             position: relative;
-            margin-left: 40px;
-            
+            width: 400px;
+            top:-50px;
+        }
+        .bar_text {
+            font-size: 0.9rem;
         }
         .skill_box2_1, .skill_box2_2 {
             display: none;
         }
     /*---------마이워크 ----------*/
     .section_04 {
-        display: block;
         position: relative;
-        width: 100%;
-        height:800px;
+        width: 400px;
+        height:auto;
         background: var(--color-black);
+        
     }   
     
     img {
@@ -235,11 +252,21 @@
             "e   b"
             "c   d"
             ;
+            width: 400px;
+            height: 400px;
             grid-template-rows: 200px 200px;
             grid-template-columns: 200px 200px;
-            margin: 0 auto;
             margin-top: 3rem;
-            margin-left: 10px;
+            margin-left: -7rem;
+            
+            
+            
+        }
+        .grid_cell {
+            width: 200px;
+            height: 200px;
+            position: relative;
+           
         }
         .img_1 {display: none;}
         .img_6 {display: none;}
@@ -248,7 +275,7 @@
     footer {
         display: block;
         width: 100%;
-        height: 400px;
+        height: auto;
         top:0px;
         left: 0px;
         align-items: center;
